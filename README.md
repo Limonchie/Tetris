@@ -135,7 +135,7 @@ Install-Package sfml
 Таблица рекордов: Сохраняйте лучшие результаты в файл.
 9. Пример использования
 9.1. Запуск игры
-cpp
+
 #include "GameField.h"
 #include "GameController.h"
 #include "MainMenu.h"
@@ -161,7 +161,7 @@ int main() {
     return 0;
 }
 9.2. Главное меню
-cpp
+
 class MainMenu {
 public:
     MainMenu(RenderWindow& window) : window(window) {}
@@ -203,7 +203,7 @@ private:
     RenderWindow& window;
 };
 9.3. Меню паузы
-cpp
+
 class PauseMenu {
 public:
     PauseMenu(RenderWindow& window) : window(window) {}
