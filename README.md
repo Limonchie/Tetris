@@ -198,10 +198,10 @@ public:
             window.display();
         }
     }
-
 private:
     RenderWindow& window;
 };
+
 9.3. Меню паузы
 
 class PauseMenu {
